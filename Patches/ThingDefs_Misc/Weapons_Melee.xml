@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<!-- prevent raiders spawning with stuff like with plastic longswords from happening -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[@Name="BaseMeleeWeapon_Sharp"]/recipeMaker/defaultIngredientFilter/exceptedThingDefs</xpath>
+		<value>
+			<li>Plastic</li>
+		</value>
+	</Operation>
+
+</Patch>

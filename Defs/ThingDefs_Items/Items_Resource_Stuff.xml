@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Plastic</defName>
+		<label>plastic</label>
+		<description>Organic plastic made from refined chemfuel. Cheap, lightweight and quite durable, but also somewhat flammable.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Plastic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1.6</MarketValue>
+			<Mass>0.3</Mass>
+			<Flammability>0.7</Flammability>
+			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>0.75</BluntDamageMultiplier>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Woody</li>
+				<li>Metallic</li>
+			</categories>
+			<commonality>0.8</commonality>
+			<color>(210,151,40)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+			<statFactors>
+				<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+				<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+				<Beauty>0.8</Beauty>
+				<DoorOpenSpeed>1.35</DoorOpenSpeed>
+				<Flammability>0.7</Flammability>
+				<MaxHitPoints>0.7</MaxHitPoints>
+				<MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
+				<WorkToMake>0.5</WorkToMake>
+				<WorkToBuild>0.7</WorkToBuild>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+	</ThingDef>
+
+</Defs>

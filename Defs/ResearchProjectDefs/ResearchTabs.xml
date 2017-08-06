@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- research tab -->
+	<ResearchTabDef>
+		<defName>SimplePlastic</defName>
+		<label>Simple Plastic</label>
+	</ResearchTabDef>
+
+	<!-- base research project -->
+	<ResearchProjectDef Name="SimplePlasticResearchBase" Abstract="True">
+		<tab>SimplePlastic</tab>
+	</ResearchProjectDef>
+
+</Defs>

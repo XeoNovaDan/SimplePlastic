@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResearchProjectDefs>
+
+	<!--================================ Tier 2: Basic electricity ====================================-->
+
+	<ResearchProjectDef ParentName="SimplePlasticResearchBase">
+		<defName>Plastic</defName>
+		<label>plastic</label>
+		<description>Make organic plastics from chemfuel at a refinery.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Refining</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</ResearchProjectDefs>

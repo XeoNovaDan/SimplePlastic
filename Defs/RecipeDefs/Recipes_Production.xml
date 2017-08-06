@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecipeDefs>
+
+	<RecipeDef>
+		<defName>MakePlasticFromChemfuel</defName>
+		<label>make plastic from chemfuel</label>
+		<description>Make a batch of plastic by refining chemfuel.</description>
+		<jobString>Making plastic from chemfuel.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>3000</workAmount>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>Plastic</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plastic>70</Plastic>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeSynthread</defName>
+		<label>make synthread</label>
+		<description>Make synthread from cloth and plastic.</description>
+		<jobString>Making synthread.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>6000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>SynthreadProduction</researchPrerequisite>
+		<recipeUsers>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>8</minLevel>
+			</li>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>Plastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Synthread>20</Synthread>
+		</products>
+	</RecipeDef>
+
+</RecipeDefs>
