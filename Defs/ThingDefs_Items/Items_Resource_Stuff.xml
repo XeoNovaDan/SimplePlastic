@@ -25,7 +25,7 @@
 				<li>Metallic</li>
 			</categories>
 			<commonality>0.8</commonality>
-			<color>(210,151,40)</color>
+			<color>(220,158,66)</color>
 			<constructEffect>ConstructMetal</constructEffect>
 			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
