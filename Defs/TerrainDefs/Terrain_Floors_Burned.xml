@@ -4,7 +4,7 @@
 	<TerrainDef ParentName="BurnedFloorBase">
 		<defName>BurnedPlasticFloor</defName>
 		<label>burned plastic floor</label>
-		<color>(93,72,26)</color>
+		<color>(45,45,43)</color>
 		<RenderPrecedence>91</RenderPrecedence>
 		<Description>Burned-out plastic flooring.</Description>
 		<texturePath>Terrain/Surfaces/PlasticFloorBase</texturePath>
