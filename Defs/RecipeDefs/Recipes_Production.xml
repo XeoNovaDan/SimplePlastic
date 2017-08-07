@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecipeDefs>
 
-	<RecipeDef>
+	<RecipeDef Name="MakePlasticBase" Abstract="True">
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSkill>Intellectual</workSkill>
+		<researchPrerequisite>Plastic</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakePlasticBase">
 		<defName>MakePlasticFromChemfuel</defName>
 		<label>make plastic from chemfuel</label>
 		<description>Make a batch of plastic by refining chemfuel.</description>
 		<jobString>Making plastic from chemfuel.</jobString>
-		<effectWorking>Cremate</effectWorking>
-		<soundWorking>Recipe_Cremate</soundWorking>
 		<workAmount>3000</workAmount>
-		<workSkill>Intellectual</workSkill>
-		<researchPrerequisite>Plastic</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
@@ -28,6 +31,75 @@
 		</fixedIngredientFilter>
 		<products>
 			<Plastic>70</Plastic>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakePlasticBase">
+		<defName>MakePlasticFromWood</defName>
+		<label>make plastic from wood</label>
+		<description>Make a batch of plastic directly from wood. Quicker, but with some yield loss.</description>
+		<jobString>Making plastic from wood.</jobString>
+		<workAmount>4750</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>70</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Plastic>63</Plastic>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakePlasticBase">
+		<defName>MakePlasticFromOrganics</defName>
+		<label>make plastic from organics</label>
+		<description>Make a batch of plastic directly from organic feedstocks. Quicker, but with some yield loss.</description>
+		<jobString>Making plastic from organics.</jobString>
+		<workAmount>4750</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>PlantMatter</li>
+					</categories>
+					<exceptedThingDefs>
+						<li>Hay</li>
+					</exceptedThingDefs>
+				</filter>
+				<count>3.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Foods</li>
+				<li>PlantMatter</li>
+			</categories>
+			<exceptedThingDefs>
+				<li>Hay</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<exceptedCategories>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
+			</exceptedCategories>
+		</defaultIngredientFilter>
+		<products>
+			<Plastic>63</Plastic>
 		</products>
 	</RecipeDef>
 
