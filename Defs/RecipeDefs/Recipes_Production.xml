@@ -110,7 +110,7 @@
 		<jobString>Making synthread.</jobString>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
-		<workAmount>6000</workAmount>
+		<workAmount>4750</workAmount>
 		<workSkill>Crafting</workSkill>
 		<researchPrerequisite>SynthreadProduction</researchPrerequisite>
 		<recipeUsers>
