@@ -66,6 +66,7 @@
 		<description>Make a batch of plastic directly from organic feedstocks. Quicker, but with some yield loss.</description>
 		<jobString>Making plastic from organics.</jobString>
 		<workAmount>4750</workAmount>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
 				<filter>
