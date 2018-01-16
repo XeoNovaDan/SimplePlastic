@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TerrainDefs>
+<Defs>
 
 	<TerrainDef ParentName="FloorBase">
 		<defName>PlasticFloor</defName>
 		<label>plastic floor</label>
 		<color>(179,179,170)</color>
-		<RenderPrecedence>90</RenderPrecedence>
-		<Description>Plastic flooring. Fast to walk on, very cheap, and very quick to lay out, but quite ugly and also quite flammable.</Description>
+		<renderPrecedence>250</renderPrecedence>
+		<description>Plastic flooring. Fast to walk on, very cheap, and very quick to lay out, but quite ugly and also quite flammable.</description>
 		<texturePath>Terrain/Surfaces/PlasticFloorBase</texturePath>
 		<burnedDef>BurnedPlasticFloor</burnedDef>
 		<statBases>
@@ -14,9 +14,9 @@
 			<WorkToBuild>75</WorkToBuild>
 			<Flammability>0.16</Flammability>
 		</statBases>
-		<CostList>
-			<Plastic>1</Plastic>
-		</CostList>
+		<costList>
+			<Plastic>2</Plastic>
+		</costList>
 	</TerrainDef>
 
-</TerrainDefs>
+</Defs>

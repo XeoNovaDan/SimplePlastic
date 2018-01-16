@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Name="MakePlasticBase" Abstract="True">
 		<effectWorking>Cremate</effectWorking>
@@ -111,7 +111,7 @@
 		<jobString>Making synthread.</jobString>
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
-		<workAmount>4750</workAmount>
+		<workAmount>2500</workAmount>
 		<workSkill>Crafting</workSkill>
 		<researchPrerequisite>SynthreadProduction</researchPrerequisite>
 		<recipeUsers>
@@ -119,10 +119,7 @@
 			<li>ElectricTailoringBench</li>
 		</recipeUsers>
 		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>8</minLevel>
-			</li>
+			<Crafting>8</Crafting>
 		</skillRequirements>
 		<ingredients>
 			<li>
@@ -131,7 +128,7 @@
 						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -139,7 +136,7 @@
 						<li>Plastic</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -149,8 +146,8 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Synthread>20</Synthread>
+			<Synthread>16</Synthread>
 		</products>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

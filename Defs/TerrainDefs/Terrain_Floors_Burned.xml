@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TerrainDefs>
+<Defs>
 
 	<TerrainDef ParentName="BurnedFloorBase">
 		<defName>BurnedPlasticFloor</defName>
 		<label>burned plastic floor</label>
 		<color>(45,45,43)</color>
-		<RenderPrecedence>91</RenderPrecedence>
-		<Description>Burned-out plastic flooring.</Description>
+		<renderPrecedence>91</renderPrecedence>
+		<description>Burned-out plastic flooring.</description>
 		<texturePath>Terrain/Surfaces/PlasticFloorBase</texturePath>
-		<EdgeType>FadeRough</EdgeType>
+		<edgeType>FadeRough</edgeType>
 	</TerrainDef>
 
-</TerrainDefs>
+</Defs>

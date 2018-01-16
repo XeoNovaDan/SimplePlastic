@@ -32,8 +32,7 @@
 			</li>
 		</operations>
 	</Operation>
-
-	<!-- prevent raiders from spawning with plastic armor -->
+	
 	<Operation Class="PatchOperationAdd">
 		<xpath>*/ThingDef[@Name="ArmorMakeableBase"]/recipeMaker/defaultIngredientFilter/exceptedThingDefs</xpath>
 		<value>
