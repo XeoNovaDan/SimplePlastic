@@ -3,9 +3,9 @@
 
 	<!--========================= Tier 4: Hi-tech research bench with multi-analyzer ===================================-->
 
-	<ResearchProjectDef ParentName="SimplePlasticResearchBase">
+	<ResearchProjectDef ParentName="XNDResearchProjectBase">
 		<defName>SynthreadProduction</defName>
-		<label>synthread</label>
+		<label>synthread production</label>
 		<description>Learn to produce synthread using cloth and plastic at a tailoring bench.</description>
 		<baseCost>1200</baseCost>
 		<techLevel>Spacer</techLevel>
@@ -16,8 +16,8 @@
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

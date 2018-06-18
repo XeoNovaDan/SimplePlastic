@@ -16,6 +16,11 @@
 			<MarketValue>1.4</MarketValue>
 			<Mass>0.25</Mass>
 			<Flammability>0.7</Flammability>
+			<StuffPower_Armor_Sharp>0.35</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.20</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
 			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
 			<BluntDamageMultiplier>0.75</BluntDamageMultiplier>
 		</statBases>
@@ -23,15 +28,13 @@
 			<categories>
 				<li>Metallic</li>
 			</categories>
-			<commonality>0.5</commonality>
+			<commonality>0.1</commonality>
 			<color>(210,210,200)</color>
 			<constructEffect>ConstructMetal</constructEffect>
-			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
+			<soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
 			<statFactors>
-				<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
-				<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
 				<Beauty>0.8</Beauty>
 				<DoorOpenSpeed>1.35</DoorOpenSpeed>
 				<Flammability>0.7</Flammability>

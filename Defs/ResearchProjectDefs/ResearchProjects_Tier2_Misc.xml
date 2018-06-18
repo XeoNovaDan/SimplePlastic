@@ -3,17 +3,17 @@
 
 	<!--================================ Tier 2: Basic electricity ====================================-->
 
-	<ResearchProjectDef ParentName="SimplePlasticResearchBase">
-		<defName>Plastic</defName>
-		<label>plastic</label>
-		<description>Make organic plastics from chemfuel at a refinery.</description>
+	<ResearchProjectDef ParentName="XNDResearchProjectBase">
+		<defName>PlasticProduction</defName>
+		<label>plastic production</label>
+		<description>Make organic plastics from chemfuel or other organics at a biofuel refinery.</description>
 		<baseCost>900</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
-			<li>Refining</li>
+			<li>BiofuelRefining</li>
 		</prerequisites>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

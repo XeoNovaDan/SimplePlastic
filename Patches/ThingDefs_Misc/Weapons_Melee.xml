@@ -2,7 +2,7 @@
 <Patch>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>*/ThingDef[@Name="BaseMeleeWeapon_Sharp" or @Name="BaseMeleeWeapon_Blunt"]/recipeMaker/defaultIngredientFilter/exceptedThingDefs</xpath>
+		<xpath>*/ThingDef[@Name="BaseMeleeWeapon_Blunt"]/recipeMaker/defaultIngredientFilter/disallowedThingDefs</xpath>
 		<value>
 			<li>Plastic</li>
 		</value>

@@ -5,7 +5,10 @@
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
 		<workSkill>Intellectual</workSkill>
-		<researchPrerequisite>Plastic</researchPrerequisite>
+		<researchPrerequisite>PlasticProduction</researchPrerequisite>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
 	</RecipeDef>
 
 	<RecipeDef ParentName="MakePlasticBase">
@@ -74,9 +77,9 @@
 						<li>Foods</li>
 						<li>PlantMatter</li>
 					</categories>
-					<exceptedThingDefs>
+					<disallowedThingDefs>
 						<li>Hay</li>
-					</exceptedThingDefs>
+					</disallowedThingDefs>
 				</filter>
 				<count>3.5</count>
 			</li>
@@ -86,18 +89,18 @@
 				<li>Foods</li>
 				<li>PlantMatter</li>
 			</categories>
-			<exceptedThingDefs>
+			<disallowedThingDefs>
 				<li>Hay</li>
-			</exceptedThingDefs>
+			</disallowedThingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<categories>
 				<li>FoodRaw</li>
 			</categories>
-			<exceptedCategories>
+			<disallowedCategories>
 				<li>MeatRaw</li>
 				<li>AnimalProductRaw</li>
-			</exceptedCategories>
+			</disallowedCategories>
 		</defaultIngredientFilter>
 		<products>
 			<Plastic>63</Plastic>
