@@ -7,7 +7,7 @@
 		<defName>SynthreadProduction</defName>
 		<label>synthread production</label>
 		<description>Learn to produce synthread using cloth and plastic at a tailoring bench.</description>
-		<baseCost>1200</baseCost>
+		<baseCost>2400</baseCost>
 		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>MultiAnalyzer</li>
@@ -17,7 +17,7 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<researchViewX>3</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

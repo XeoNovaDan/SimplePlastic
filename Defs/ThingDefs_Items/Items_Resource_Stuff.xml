@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>Plastic</defName>
 		<label>plastic</label>
-		<description>Organic plastic made from refined chemfuel. Cheap, lightweight and slightly durable, but also somewhat flammable.</description>
+		<description>Organic plastic made from refined chemfuel. While cheap and lightweight, it's less durable than wood and slightly flammable.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Plastic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -13,16 +13,16 @@
 		<soundDrop>Metal_Drop</soundDrop>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
-			<MarketValue>1.4</MarketValue>
-			<Mass>0.25</Mass>
+			<MarketValue>1.1</MarketValue>
+			<Mass>0.2</Mass>
 			<Flammability>0.7</Flammability>
-			<StuffPower_Armor_Sharp>0.35</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>0.20</StuffPower_Armor_Blunt>
-			<StuffPower_Armor_Heat>0.2</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Sharp>0.63</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>3</StuffPower_Insulation_Heat>
 			<SharpDamageMultiplier>0.3</SharpDamageMultiplier>
-			<BluntDamageMultiplier>0.75</BluntDamageMultiplier>
+			<BluntDamageMultiplier>0.7</BluntDamageMultiplier>
 		</statBases>
 		<stuffProps>
 			<categories>
@@ -38,7 +38,7 @@
 				<Beauty>0.8</Beauty>
 				<DoorOpenSpeed>1.35</DoorOpenSpeed>
 				<Flammability>0.7</Flammability>
-				<MaxHitPoints>0.6</MaxHitPoints>
+				<MaxHitPoints>0.5</MaxHitPoints>
 				<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
 				<WorkToMake>0.7</WorkToMake>
 				<WorkToBuild>0.7</WorkToBuild>

@@ -13,7 +13,7 @@
 			<li>BiofuelRefining</li>
 		</prerequisites>
 		<researchViewX>1</researchViewX>
-		<researchViewY>2</researchViewY>
+		<researchViewY>0</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>
