@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSyncNinjaData>
+  <ID>b02a8303-9b71-421a-b16d-505f6c88cd7d</ID>
+  <ModName>[XND] Simple Plastic</ModName>
+  <Version>1.3.1</Version>
+  <SaveBreaking>False</SaveBreaking>
+  <Host name="Github">
+    <Owner>XeoNovaDan</Owner>
+    <Project>SimplePlastic</Project>
+    <AboutDir>About</AboutDir>
+    <DownloadFrom>ModSyncMainPage</DownloadFrom>
+    <Branch>master</Branch>
+  </Host>
+</ModSyncNinjaData>
