@@ -1,6 +1,6 @@
 <Manifest>
     <identifier>SimplePlastic</identifier>
     <version>1.3.3</version>
-    <manifestUri>https://rawgit.com/XeoNovaDan/SimplePlastic/master/About/Manifest.xml</manifestUri>
+    <manifestUri>https://cdn.jsdelivr.net/gh/XeoNovaDan/SimplePlastic/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/XeoNovaDan/SimplePlastic/releases</downloadUri>
 </Manifest>
